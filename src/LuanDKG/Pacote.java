@@ -56,6 +56,36 @@ public class Pacote {
 
 	}
 
+	public Identificador Identifique(String eNome, short eValor) {
+		
+		return	this.Identifique(eNome,String.valueOf(eValor));
+		
+	}
+	
+	public Identificador Identifique(String eNome, int eValor) {
+	
+		return	this.Identifique(eNome,String.valueOf(eValor));
+		
+	}
+	
+	public Identificador Identifique(String eNome, float eValor) {
+		
+		return	this.Identifique(eNome,String.valueOf(eValor));
+		
+	}
+	
+	public Identificador Identifique(String eNome, double eValor) {
+		
+		return	this.Identifique(eNome,String.valueOf(eValor));
+		
+	}
+	
+	public Identificador Identifique(String eNome, boolean eValor) {
+		
+		return	this.Identifique(eNome,String.valueOf(eValor));
+		
+	}
+	
 	public Identificador Identifique(String eNome, String eValor) {
 
 		boolean enc = false;

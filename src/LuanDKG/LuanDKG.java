@@ -97,6 +97,10 @@ public class LuanDKG {
 		Texto.Escrever(eArquivo, this.toString());
 
 	}
+	
+	public String GerarString() {
+		return this.toString();
+	}
 
 	// HIERARQUIZE
 

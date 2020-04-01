@@ -1,0 +1,17 @@
+   PACOTE Mundo
+   {
+      PACOTE Pessoas
+      {
+         LISTA Tipos { Amarelo Verde Vermelho Azul Preto Branco Cinza } 
+         OBJETO Pessoa { 
+            ID ID = "1"
+            ID Nome = "Aline Freitas"
+            ID Altura = "1.7"
+         }
+         OBJETO Pessoa { 
+            ID ID = "2"
+            ID Nome = "Samuel Alencar"
+            ID Altura = "1.9"
+         }
+      }
+   }
